@@ -9,10 +9,6 @@
     "prepublishOnly": "npm run test && rm ./dist/* && npm run build"
   },
   "dependencies": {
-    "@dojo/cli": "^6.0.0",
-    "@dojo/cli-create-app": "^6.0.0",
-    "@dojo/framework": "^6.0.4",
-    "dojo": "^1.16.1",
     "fs-extra": "^8.1.0"
   },
   "devDependencies": {
