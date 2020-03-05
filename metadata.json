@@ -1,0 +1,19 @@
+{
+  "type": "application",
+  "name": "Init",
+  "category": "development",
+  "singleton":true,
+  "hidden":false,
+  "autostart":false,
+  "server": "server.js",
+  "title": {
+    "en_EN": "Init"
+  },
+  "description": {
+    "en_EN": "Init"
+  },
+  "files": [
+    "main.js",
+    "main.css"
+  ]
+}
