@@ -3,8 +3,8 @@
   "name": "Init",
   "category": "development",
   "singleton":true,
-  "hidden":false,
-  "autostart":false,
+  "hidden":true,
+  "autostart":true,
   "server": "server.js",
   "title": {
     "en_EN": "Init"
