@@ -3,7 +3,7 @@
   "name": "Init",
   "category": "development",
   "singleton":true,
-  "hidden":true,
+  "hidden":false,
   "autostart":true,
   "server": "server.js",
   "title": {

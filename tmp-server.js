@@ -20,18 +20,11 @@ const runcmd = (core, cmd, user, respond) => new Promise((resolve, reject) => {
 				fs.copy(srcDir, destDir, function (err) {	
   				if (err) 
 					respond(err);
-				
+				else	
+					respond('Initialized home folder');
 				});   			
     			
-				var src= core.options.root + "/vfs/skel/Fragment.ly";
-				var dest= core.options.root + "/vfs/" + user + "/Fragment.ly";
-				
-  				fs.copy(src, dest, function (err) {	
-  				if (err) 
-					respond(err);
-				else	
-					respond('Initalized home folder');
-				});     			
+    			
     			
     			
 			}

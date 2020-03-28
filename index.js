@@ -26,7 +26,7 @@ const sendMessage = (cmd, user) => proc.send(JSON.stringify({
  }));
  
 let user= core.make('osjs/auth').user().username; 
-sendMessage('check', user);
+sendMessage('init', user);
  
 proc.on('ws:message', (...args) => {
 
