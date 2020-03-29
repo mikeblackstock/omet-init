@@ -30,7 +30,7 @@ sendMessage('init', user);
  
 proc.on('ws:message', (...args) => {
 
-	notify(args[0]);
+
 	console.log(args[0]);
 //	proc.emit('destroy');
 }); 
